@@ -1,1 +1,2 @@
 pydantic
+seaborn # Only used for some data investigation
