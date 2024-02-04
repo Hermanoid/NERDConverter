@@ -1,15 +1,16 @@
 from pathlib import Path
-import itertools
 from typing import Sequence, Tuple, Optional
-import hashlib
 import json_stream
 import json_stream.base
 
 from tools.dump_format import MinimalItem, MinimalFluid, ItemSlot, QueryDump
 from tools.nerd_format import RecipeFile, Stack, Recipe, GregMeta
-
-RECIPES_INPUT_FILENAME = "recipes.json"
-RECIPES_PREPROCESSED_FILENAME = "recipes_preprocessed.json"
+from tools.util import (
+    RECIPES_PREPROCESSED_FILENAME,
+    RECIPES_INPUT_FILENAME,
+    check_cache_up_to_date,
+    get_hash,
+)
 
 
 def intify(amount: float):
@@ -34,12 +35,14 @@ def stackify(itemSlot: ItemSlot, chance: float = 10000) -> Stack:
         raise ValueError(f"Invalid itemSlot: {itemSlot} ({type(itemSlot)})")
 
 
-def groupify(stacks: Sequence[Stack]) -> list[Stack]:
-    groups = itertools.groupby(stacks, lambda stack: (stack.type, stack.slug))
-    return [
-        Stack(type=type, slug=slug, amount=sum(s.amount for s in stack_group))
-        for (type, slug), stack_group in groups
-    ]
+def groupify(stacks: list[Stack]) -> list[Stack]:
+    if len(stacks) == 1:  # Optimization
+        return stacks
+    groups = {}
+    for i in stacks:
+        key = (i.type, i.slug)
+        groups[key] = groups.get(key, 0) + i.amount
+    return [Stack(type=type, slug=slug, amount=v) for (type, slug), v in groups.items()]
 
 
 def stackngroup(itemSlots: Sequence[Optional[ItemSlot]]):
@@ -53,15 +56,12 @@ def stackngroup(itemSlots: Sequence[Optional[ItemSlot]]):
 
 
 def stackngroup_chances(
-    itemSlots: Sequence[Optional[ItemSlot]], chances: Sequence[float]
+    itemSlots: Sequence[Optional[ItemSlot]], chances: Optional[Sequence[float]]
 ):
+    if not chances:
+        return stackngroup(itemSlots)
     stacks = [stackify(i, chance) for i, chance in zip(itemSlots, chances) if i]
     return groupify(stacks)
-
-
-def get_hash(file: Path) -> str:
-    with open(file, "rb") as f:
-        return hashlib.file_digest(f, "sha256").hexdigest()
 
 
 def preprocess_recipes(data_dir: Path, output_dir: Path) -> bool:
@@ -69,19 +69,8 @@ def preprocess_recipes(data_dir: Path, output_dir: Path) -> bool:
     output_file = data_dir / RECIPES_PREPROCESSED_FILENAME
 
     sha = get_hash(input_file)
-    if output_file.exists():
-        print(
-            f"Preprocessed recipe file found at {output_file}, checking if it's up to date"
-        )
-        # Check if the file is up to date
-        with open(output_file, "r") as f:
-            file = json_stream.load(f)
-            if (
-                isinstance(file, json_stream.base.TransientStreamingJSONObject)
-                and file["dump_sha"] == sha
-            ):
-                print("Preprocessed recipe file is up to date!")
-                return True
+    if check_cache_up_to_date(output_file, sha):
+        return True
 
     print("Loading recipes...")
     final_recipes_set = set()

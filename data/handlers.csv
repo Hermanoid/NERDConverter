@@ -1,0 +1,302 @@
+Handler Recipe Name,Handler Class,Overlay Identifier,Mod DisplayName,ItemStack
+Shaped Crafting,appeng.integration.modules.NEIHelpers.NEIAEShapedRecipeHandler,crafting,Applied Energistics 2,1xitem.appliedenergistics2.ItemPart@380
+Shapeless Crafting,appeng.integration.modules.NEIHelpers.NEIAEShapelessRecipeHandler,crafting,Applied Energistics 2,1xitem.appliedenergistics2.ItemPart@380
+Inscriber,appeng.integration.modules.NEIHelpers.NEIInscriberRecipeHandler,inscriber,Applied Energistics 2,1xtile.appliedenergistics2.BlockInscriber@0
+AE2 In World Crafting,appeng.integration.modules.NEIHelpers.NEIWorldCraftingHandler,null,Applied Energistics 2,1xitem.appliedenergistics2.ItemMaterial@9
+Facade Crafting,appeng.integration.modules.NEIHelpers.NEIFacadeRecipeHandler,AEFacadeCrafting,Applied Energistics 2,1xitem.appliedenergistics2.ItemFacade@192
+Refinery,buildcraft.compat.nei.RecipeHandlerRefinery,null,BuildCraft,1xtile.refineryBlock@0
+Assembly Table,buildcraft.compat.nei.RecipeHandlerAssemblyTable,null,BuildCraft,1xtile.laserTableBlock@0
+Integration Table,buildcraft.compat.nei.RecipeHandlerIntegrationTable,null,BuildCraft,1xtile.laserTableBlock@2
+IRecipeInfo,com.creativemd.creativecore.api.nei.NEIRecipeInfoHandler,crafting,Unknown,Unknown
+Bee Breeding Tree,hellfirepvp.beebetteratbees.client.gui.BBABGuiRecipeTreeHandler,null,Bees,1xitem.for.beeQueenGE@0
+Shaped Crafting,gcewing.projectblue.nei.NEIRecipeHandler,crafting,ProjectBlue,1xitem.gcewing_projectblue:sprayCan@0
+IC2 Crop Breeding,speiger.src.crops.prediction.NEIPlugin,null,IC2CropsNEI,1xic2.blockCrop@0
+Ender Storage Chest Overview,neicustomdiagram.diagramgroup.enderstorage.chestoverview,null,NEI Custom Diagram,1xtile.enderchest@0
+Ender Storage Tank Overview,neicustomdiagram.diagramgroup.enderstorage.tankoverview,null,NEI Custom Diagram,1xtile.enderchest@4096
+GregTech Circuits,neicustomdiagram.diagramgroup.gregtech.circuits,null,NEI Custom Diagram,1xgt.metaitem.01@32702
+GregTech Lenses,neicustomdiagram.diagramgroup.gregtech.lenses,null,NEI Custom Diagram,1xgt.metaitem.01@24501
+GregTech Material Parts,neicustomdiagram.diagramgroup.gregtech.materialparts,null,NEI Custom Diagram,1xgt.metaitem.02@31019
+GregTech Material Tools,neicustomdiagram.diagramgroup.gregtech.materialtools,null,NEI Custom Diagram,1xgt.metatool.01@12
+GregTech Ore Processing,neicustomdiagram.diagramgroup.gregtech.oreprocessing,null,NEI Custom Diagram,1xgt.blockores@19
+Shaped Crafting,codechicken.nei.recipe.ShapedRecipeHandler,crafting,Minecraft,1xtile.workbench@0
+Shapeless Crafting,codechicken.nei.recipe.ShapelessRecipeHandler,crafting,Minecraft,1xtile.workbench@0
+Fireworks,codechicken.nei.recipe.FireworkRecipeHandler,crafting,Minecraft,1xitem.fireworks@0
+Smelting,codechicken.nei.recipe.FurnaceRecipeHandler,smelting,Minecraft,1xtile.furnace@0
+Brewing,codechicken.nei.recipe.BrewingRecipeHandler,brewing,Minecraft,1xitem.brewingStand@0
+Fuel,codechicken.nei.recipe.FuelRecipeHandler,fuel,Minecraft,Unknown
+Usage Profiling,codechicken.nei.recipe.ProfilerRecipeHandler,null,Unknown,Unknown
+Aromic Crafting,aroma1997.core.recipes.nei.ShapedAromicRecipeHandler,crafting,AromaBackup,1xtile.workbench@0
+Aromic Crafting,aroma1997.core.recipes.nei.ShapelessAromicRecipeHandler,crafting,AromaBackup,1xtile.workbench@0
+Bacterial Vat,com.github.bartimaeusnek.bartworks.neiHandler.BW_NEI_BioVatHandler,bw.recipe.BacteriaVat,BartWorks,1xgt.blockmachines@12712
+Bio Lab,com.github.bartimaeusnek.bartworks.neiHandler.BW_NEI_BioLabHandler,bw.recipe.biolab,BartWorks,1xgt.blockmachines@12699
+§9NASA Workbench,micdoodle8.mods.galacticraft.core.nei.BuggyRecipeHandler,null,Galacticraft,1xtile.rocketWorkbench@0
+Refinery,micdoodle8.mods.galacticraft.core.nei.RefineryRecipeHandler,null,Galacticraft,1xtile.refinery@0
+Circuit Fabricator,micdoodle8.mods.galacticraft.core.nei.CircuitFabricatorRecipeHandler,null,Galacticraft,1xtile.machine2.0@4
+§9NASA Workbench,micdoodle8.mods.galacticraft.planets.asteroids.nei.AstroMinerRecipeHandler,null,Galacticraft,1xtile.rocketWorkbench@0
+§9NASA Workbench,micdoodle8.mods.galacticraft.planets.mars.nei.CargoRocketRecipeHandler,null,Galacticraft,1xtile.rocketWorkbench@0
+Decayables,gtPlusPlus.nei.DecayableRecipeHandler,GTPP_Decayables,GT++,1xitem.dustRadium226@0
+LFTR Gas Sparging,gtPlusPlus.nei.GT_NEI_LFTR_Sparging,gtpp.recipe.lftr.sparging,GT++,1xgt.blockmachines@31035
+Shaped IC2 Crafting,ic2.neiIntegration.core.recipehandler.AdvRecipeHandler,crafting,IndustrialCraft 2,1xic2.blockreactorvessel@0
+Shapeless IC2 Crafting,ic2.neiIntegration.core.recipehandler.AdvShapelessRecipeHandler,crafting,IndustrialCraft 2,1xic2.blockreactorvessel@0
+Macerator,ic2.neiIntegration.core.recipehandler.MaceratorRecipeHandler,macerator,IndustrialCraft 2,1xic2.blockMachine@3
+Extractor,ic2.neiIntegration.core.recipehandler.ExtractorRecipeHandler,extractor,IndustrialCraft 2,1xic2.blockMachine@4
+Compressor,ic2.neiIntegration.core.recipehandler.CompressorRecipeHandler,compressor,IndustrialCraft 2,1xic2.blockMachine@5
+Scrapbox,ic2.neiIntegration.core.recipehandler.ScrapboxRecipeHandler,null,IndustrialCraft 2,1xic2.itemScrapbox@0
+Metal Former,ic2.neiIntegration.core.recipehandler.MetalFormerRecipeHandlerExtruding,metalformer,IndustrialCraft 2,1xic2.blockMachine2@4
+Metal Former,ic2.neiIntegration.core.recipehandler.MetalFormerRecipeHandlerCutting,metalformer,IndustrialCraft 2,1xic2.blockMachine2@4
+Metal Former,ic2.neiIntegration.core.recipehandler.MetalFormerRecipeHandlerRolling,metalformer,IndustrialCraft 2,1xic2.blockMachine2@4
+Thermal Centrifuge,ic2.neiIntegration.core.recipehandler.CentrifugeRecipeHandler,centrifuge,IndustrialCraft 2,1xic2.blockMachine2@3
+Block Cutting Machine,ic2.neiIntegration.core.recipehandler.BlockCutterRecipeHandler,BlockCutter,IndustrialCraft 2,1xic2.blockMachine3@2
+Ore Washing Plant,ic2.neiIntegration.core.recipehandler.OreWashingRecipeHandler,oreWashing,IndustrialCraft 2,1xic2.blockMachine2@5
+Canning Machine,ic2.neiIntegration.core.recipehandler.SolidCannerRecipeHandler,solidcanner,IndustrialCraft 2,1xic2.blockMachine2@9
+Blast Furnace,ic2.neiIntegration.core.recipehandler.BlastFurnaceRecipeHandler,blastfurnace,IndustrialCraft 2,1xic2.blockMachine3@1
+Turning Table,ic2.neiIntegration.core.recipehandler.LatheRecipeHandler,null,IndustrialCraft 2,1xic2.blockMachine3@8
+Fluid Canning Machine,ic2.neiIntegration.core.recipehandler.FluidCannerRecipeHandler,fluidcanner,IndustrialCraft 2,1xic2.blockMachine@6
+Soldering Station,logisticspipes.nei.NEISolderingStationRecipeManager,crafting,Unknown,Unknown
+Mob Info,com.kuba6000.mobsinfo.nei.MobHandler,mobsinfo.mobhandler,MobsInfo,1xitem.swordDiamond@0
+Infernal Drops,com.kuba6000.mobsinfo.nei.MobHandlerInfernal,mobsinfo.mobhandlerinfernal,MobsInfo,1xitem.swordDiamond@0
+Manual,li.cil.oc.integration.nei.ManualUsageHandler,null,OpenComputers,1xitem.oc.multi@98
+OpenComputers API,li.cil.oc.integration.nei.CallbackDocHandler,null,OpenComputers,1xitem.oc.multi@98
+Imbuing Station,lumien.randomthings.Handler.ModCompability.NEI.ImbuingStationRecipeHandler,imbuing,RandomThings,1xtile.imbuingStation@0
+Aspect Combination,ru.timeconqueror.tcneiadditions.nei.AspectCombinationHandler,null,Thaumcraft,1xitem.ItemResearchNotes@0
+Shaped A.Worktable,ru.timeconqueror.tcneiadditions.nei.arcaneworkbench.ArcaneCraftingShapedHandler,arcaneshapedrecipes,Thaumcraft,1xtile.blockTable@15
+Shapeless A.Worktable,ru.timeconqueror.tcneiadditions.nei.arcaneworkbench.ArcaneCraftingShapelessHandler,arcaneshapelessrecipes,Thaumcraft,1xtile.blockTable@15
+Crucible,ru.timeconqueror.tcneiadditions.nei.TCNACrucibleRecipeHandler,cruciblerecipe,Thaumcraft,1xtile.blockMetalDevice@0
+Arcane Infusion,ru.timeconqueror.tcneiadditions.nei.TCNAInfusionRecipeHandler,infusionCrafting,Thaumcraft,1xtile.blockStoneDevice@2
+Witches Oven,alkalus.main.nei.NEI_Handler_Oven,witchery_cooking,Witchery,1xtile.witchery:witchesovenidle@0
+Distillery,alkalus.main.nei.NEI_Handler_Distillery,witchery_distilling,Witchery,1xtile.witchery:distilleryidle@0
+Kettle,alkalus.main.nei.NEI_Handler_Kettle,witchery_brewing,Witchery,1xtile.witchery:kettle@0
+Witch's Cauldron,alkalus.main.nei.NEI_Handler_Cauldron,witchery_brewing_plus,Witchery,1xtile.witchery:cauldron@0
+Spinning Wheel,alkalus.main.nei.NEI_Handler_SpinningWheel,witchery_spinning,Witchery,1xtile.witchery:spinningwheel@0
+Spinning Wheel,witchinggadgets.client.nei.NEISpinningWheelHandler,wgSpinningWheel,WitchingGadgets,1xtile.WG_WoodenDevice@0
+Infernal Blast Furnace,witchinggadgets.client.nei.NEIInfernalBlastfurnaceHandler,wgInfernalBlastfurnace,WitchingGadgets,1xtile.WG_StoneDevice@2
+Molecular Transformer,advsolar.client.nei.MTRecipeHandler,null,Advanced Solar Panels,1xtile.null@0
+QED Recipes,com.rwtema.extrautils.nei.EnderConstructorHandler,qedcrafting,Extra Utilities,1xtile.extrautils:endConstructor@0
+Documentation,com.rwtema.extrautils.nei.InfoHandler,null,Extra Utilities,1xtile.extrautils:chandelier@0
+Soul Crafting,com.rwtema.extrautils.nei.SoulHandler,null,Extra Utilities,1xitem.extrautils:mini-soul@0
+Microblock Crafting,com.rwtema.extrautils.nei.FMPMicroBlocksHandler,crafting,Extra Utilities,1xitem.microblock:sawIron@0
+Extra Utilities: Microblocks,com.rwtema.extrautils.nei.MicroBlocksHandler,crafting,Extra Utilities,1xitem.extrautils:microblocks@1
+Drying Rack,tconstruct.plugins.nei.RecipeHandlerDryingRack,null,Tinker's Construct,1xtile.Armor.DryingRack@0
+Tool Materials,tconstruct.plugins.nei.RecipeHandlerToolMaterials,null,Tinker's Construct,1xtile.ToolStation@0
+Smeltery Melting,tconstruct.plugins.nei.RecipeHandlerMelting,null,Tinker's Construct,1xtile.LavaTank@2
+Smeltery Alloying,tconstruct.plugins.nei.RecipeHandlerAlloying,null,Tinker's Construct,1xtile.Smeltery@0
+Casting Table,tconstruct.plugins.nei.RecipeHandlerCastingTable,null,Tinker's Construct,1xtile.SearedBlock@0
+Casting Basin,tconstruct.plugins.nei.RecipeHandlerCastingBasin,null,Tinker's Construct,1xtile.SearedBlock@2
+Alchemic Chemistry Set,WayofTime.alchemicalWizardry.client.nei.NEIAlchemyRecipeHandler,alchemicalwizardry.alchemy,Blood Magic,1xtile.blockWritingTable@0
+          Altar of GregoriusT's Blood,WayofTime.alchemicalWizardry.client.nei.NEIAltarRecipeHandler,altarrecipes,Blood Magic,1xtile.bloodAltar@0
+Shaped Orb Crafting,WayofTime.alchemicalWizardry.client.nei.NEIBloodOrbShapedHandler,crafting,Blood Magic,1xtile.bloodRune@3
+Shapeless Orb Crafting,WayofTime.alchemicalWizardry.client.nei.NEIBloodOrbShapelessHandler,crafting,Blood Magic,1xtile.bloodRune@4
+Binding Ritual,WayofTime.alchemicalWizardry.client.nei.NEIBindingRitualHandler,alchemicalwizardry.bindingritual,Blood Magic,1xitem.sacrificialDagger@0
+Meteor Ritual,WayofTime.alchemicalWizardry.client.nei.NEIMeteorRecipeHandler,alchemicalwizardry.meteor,Blood Magic,1xtile.blockMasterStone@0
+Chisel,team.chisel.compat.nei.RecipeHandlerChisel,null,Chisel,1xitem.chisel.chisel_iron@0
+Bottler,forestry.factory.recipes.nei.NEIHandlerBottler,forestry.bottler,Forestry for Minecraft,1xtile.for.factory@0
+Carpenter,forestry.factory.recipes.nei.NEIHandlerCarpenter,forestry.carpenter,Forestry for Minecraft,1xtile.for.factory@1
+Centrifuge,forestry.factory.recipes.nei.NEIHandlerCentrifuge,forestry.centrifuge,Forestry for Minecraft,1xtile.for.factory@2
+Thermionic Fabricator,forestry.factory.recipes.nei.NEIHandlerFabricator,forestry.fabricator,Forestry for Minecraft,1xtile.for.factory2@0
+Fermenter,forestry.factory.recipes.nei.NEIHandlerFermenter,forestry.fermenter,Forestry for Minecraft,1xtile.for.factory@3
+Moistener,forestry.factory.recipes.nei.NEIHandlerMoistener,forestry.moistener,Forestry for Minecraft,1xtile.for.factory@4
+Squeezer,forestry.factory.recipes.nei.NEIHandlerSqueezer,forestry.squeezer,Forestry for Minecraft,1xtile.for.factory@5
+Still,forestry.factory.recipes.nei.NEIHandlerStill,forestry.still,Forestry for Minecraft,1xtile.for.factory@6
+Alloy Smelter,crazypants.enderio.nei.AlloySmelterRecipeHandler,EnderIOAlloySmelter,Ender IO,1xtile.blockAlloySmelter@0
+SAG Mill,crazypants.enderio.nei.SagMillRecipeHandler,EnderIOSagMill,Ender IO,1xtile.blockSagMill@0
+Vat,crazypants.enderio.nei.VatRecipeHandler,EnderIOVat,Ender IO,1xtile.blockVat@0
+Enchanter,crazypants.enderio.nei.EnchanterRecipeHandler,EIOEnchanter,Ender IO,1xtile.blockEnchanter@0
+Slice'N'Splice,crazypants.enderio.nei.SliceAndSpliceRecipeHandler,EnderIOSliceAndSplice,Ender IO,1xtile.blockSliceAndSplice@0
+Soul Binder,crazypants.enderio.nei.SoulBinderRecipeHandler,EnderIOSoulBinder,Ender IO,1xtile.blockSoulBinder@0
+Circuit Fabricator,de.katzenpapst.amunra.nei.recipehandler.ARCircuitFab,null,Pra's Galacticraft Mod,1xtile.machine2.0@4
+NASA Workbench,de.katzenpapst.amunra.nei.recipehandler.ARNasaWorkbenchShuttle,null,Pra's Galacticraft Mod,1xitem.itemShuttle@0
+Floating Flowers,vazkii.botania.client.integration.nei.recipe.RecipeHandlerFloatingFlowers,null,Botania,1xtile.miniIsland@0
+Petal Apothecary,vazkii.botania.client.integration.nei.recipe.RecipeHandlerPetalApothecary,null,Botania,1xtile.altar@0
+Runic Altar,vazkii.botania.client.integration.nei.recipe.RecipeHandlerRunicAltar,null,Botania,1xtile.runeAltar@0
+Mana Infusion,vazkii.botania.client.integration.nei.recipe.RecipeHandlerManaPool,null,Botania,1xtile.pool@0
+Elven Trade,vazkii.botania.client.integration.nei.recipe.RecipeHandlerElvenTrade,null,Botania,1xtile.alfheimPortal@0
+Botanical Brewery,vazkii.botania.client.integration.nei.recipe.RecipeHandlerBrewery,null,Botania,1xtile.brewery@0
+Pure Daisy,vazkii.botania.client.integration.nei.recipe.RecipeHandlerPureDaisy,null,Botania,1xtile.specialFlower@0
+Lexica Botania,vazkii.botania.client.integration.nei.recipe.RecipeHandlerLexicaBotania,null,Botania,1xitem.lexicon@0
+Xtreme Crafting,fox.spiteful.avaritia.compat.nei.ExtremeShapedRecipeHandler,extreme,Avaritia,1xtile.dire_crafting@0
+Xtreme Shapeless,fox.spiteful.avaritia.compat.nei.ExtremeShapelessRecipeHandler,extreme,Avaritia,1xtile.dire_crafting@0
+Neutronium Compressor,fox.spiteful.avaritia.compat.nei.CompressionHandler,extreme_compression,Avaritia,1xtile.neutronium_compressor@0
+Isolator,binnie.genetics.nei.IsolatorRecipeHandler,genetics.isolator,Genetics,1xtile.machine@0
+Sequencer,binnie.genetics.nei.SequencerRecipeHandler,genetics.sequencer,Genetics,1xtile.machine@1
+Polymeriser,binnie.genetics.nei.PolymeriserRecipeHandler,genetics.polymeriser,Genetics,1xtile.machine@2
+Inoculator,binnie.genetics.nei.InoculatorRecipeHandler,genetics.inoculator,Genetics,1xtile.machine@3
+Analyzer,binnie.genetics.nei.AnalyserRecipeHandler,genetics.analyser,Genetics,1xtile.labMachine@1
+Incubator,binnie.genetics.nei.IncubatorRecipeHandler,genetics.incubator,Genetics,1xtile.labMachine@2
+Genepool,binnie.genetics.nei.GenepoolRecipeHandler,genetics.genepool,Genetics,1xtile.labMachine@3
+Acclimatiser,binnie.genetics.nei.AcclimatiserRecipeHandler,genetics.acclimatiser,Genetics,1xtile.labMachine@4
+Splicer,binnie.genetics.nei.SplicerRecipeHandler,genetics.splicer,Genetics,1xtile.advMachine@0
+Gene Database,binnie.genetics.nei.DatabaseRecipeHandler,genetics.database,Genetics,1xitem.database@0
+Lumbermill,binnie.extratrees.nei.NEIHandlerLumbermill,extratrees.lumbermill,Extra Trees,1xtile.machine@0
+Genetic Template,net.bdew.gendustry.nei.TemplateCraftingHandler,crafting,Gendustry,1xitem.gendustry.GeneTemplate@0
+Mutagen Producer,net.bdew.gendustry.nei.MutagenProducerHandler,null,Gendustry,1xtile.gendustry.mutagen_producer@0
+Mutatron,net.bdew.gendustry.nei.MutatronHandler,null,Gendustry,1xtile.gendustry.mutatron@0
+Genetic Sampler,net.bdew.gendustry.nei.SamplerHandler,null,Gendustry,1xtile.gendustry.sampler@0
+Genetic Imprinter,net.bdew.gendustry.nei.ImprinterHandler,null,Gendustry,1xtile.gendustry.imprinter@0
+DNA Extractor,net.bdew.gendustry.nei.ExtractorHandler,null,Gendustry,1xtile.gendustry.extractor@0
+Protein Liquifier,net.bdew.gendustry.nei.LiquifierHandler,null,Gendustry,1xtile.gendustry.liquifier@0
+Genetic Replicator,net.bdew.gendustry.nei.ReplicatorHandler,null,Gendustry,1xtile.gendustry.replicator@0
+Genetic Transposer,net.bdew.gendustry.nei.TransposerHandler,null,Gendustry,1xtile.gendustry.transposer@0
+Garden Drops,com.pam.harvestcraft.GardenRecipeHandler,harvestcraftGardenDrops,Pam's Harvestcraft,1xtile.berrygarden@0
+Alloy Smelter Molding,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.alloy_smelter_molding,GregTech,Unknown
+Assembler,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.assembler,GregTech,1xgt.blockmachines@211
+Naquadah Reactor MkV,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.extrahugenaquadahreactor,GregTech,1xgt.blockmachines@1189
+Alloy Smelter,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.alloysmelter,GregTech,1xgt.blockmachines@201
+Replicator,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.replicator,GregTech,1xgt.blockmachines@481
+Chemical Bath,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.chemicalbath,GregTech,1xgt.blockmachines@541
+High Temperature Gas-coo...,gregtech.nei.GT_NEI_DefaultHandler,bw.recipe.htgr,BartWorks,1xgt.blockmachines@12791
+Electrolyzer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.electrolyzer,GregTech,1xgt.blockmachines@371
+Rock Breaker,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.rockbreaker,GregTech,1xgt.blockmachines@441
+Plasma Generator Fuels,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.plasmageneratorfuels,GregTech,1xgt.blockmachines@1196
+Forming Press,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.press,GregTech,1xgt.blockmachines@601
+Draconic Evolution Fusion ...,gregtech.nei.GT_NEI_DefaultHandler,kubatech.defusioncrafter,KubaTech,1xgt.blockmachines@5001
+Milling,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.oremill,GregTech,1xgt.blockmachines@31027
+Blast Furnace,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.blastfurnace,GregTech,1xgt.blockmachines@1000
+Alloy Smelter Recycling,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.alloy_smelter_recycling,GregTech,Unknown
+Multiblock Dehydrator,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.multidehydrator,GregTech,1xgt.blockmachines@995
+Pyrolyse Oven,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.pyro,GregTech,1xgt.blockmachines@1159
+RTG,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.RTGgenerators,GregTech,1xgt.blockmachines@869
+Mixer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.mixer,GregTech,1xgt.blockmachines@581
+Dissolution Tank,gregtech.nei.GT_NEI_DefaultHandler,gtnhlanth.recipe.disstank,GTNH: Lanthanides,1xgt.blockmachines@10501
+Sifter,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.sifter,GregTech,1xgt.blockmachines@641
+Naquadah Reactor MkII,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.largenaquadahreactor,GregTech,1xgt.blockmachines@1191
+Matter Fabricator,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.matterfab2,GregTech,1xgt.blockmachines@799
+Gas Turbine Fuel,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.gasturbinefuel,GregTech,1xgt.blockmachines@1115
+Neutron Activator,gregtech.nei.GT_NEI_DefaultHandler,gg.recipe.neutron_activator,Good Generator,1xgt.blockmachines@32013
+Large Naquadah Reactor,gregtech.nei.GT_NEI_DefaultHandler,gg.recipe.naquadah_reactor,Good Generator,1xgt.blockmachines@12732
+Arc Furnace,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.arcfurnace,GregTech,1xgt.blockmachines@651
+Space Projects,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fakespaceprojects,GregTech,1xgt.blockmachines@14012
+Macerator Recycling,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.macerator_recycling,GregTech,Unknown
+Radio Hatch Material List,gregtech.nei.GT_NEI_DefaultHandler,bw.recipe.radhatch,BartWorks,1xgt.blockmachines@12713
+PCB Factory,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.pcbfactory,GregTech,1xgt.blockmachines@356
+Electric Implosion Compres...,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.electricimplosioncompressor,BartWorks,1xgt.blockmachines@12734
+Thermal Generator Fuels,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.thermalgeneratorfuel,GregTech,1xgt.blockmachines@830
+Large Chemical Reactor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.largechemicalreactor,GregTech,1xgt.blockmachines@1169
+Slicer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.slicer,GregTech,1xgt.blockmachines@631
+Coke Oven,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.cokeoven,GregTech,1xgt.blockmachines@791
+Alloy Blast Smelter,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.alloyblastsmelter,GregTech,1xgt.blockmachines@810
+Implosion Compressor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.implosioncompressor,GregTech,1xgt.blockmachines@1001
+Distillation Tower,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.distillationtower,GregTech,1xgt.blockmachines@1126
+Fluid Heater,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fluidheater,GregTech,1xgt.blockmachines@621
+Reactor Processing Unit,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.reactorprocessingunit,GregTech,1xgt.blockmachines@31031
+Electromagnetic Polarizer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.polarizer,GregTech,1xgt.blockmachines@551
+Chemical Reactor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.chemicalreactor,GregTech,1xgt.blockmachines@421
+Nuclear Fuel Processing,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.fissionfuel,GregTech,1xgt.blockmachines@835
+Transcendent Plasma Mixer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.transcendentplasmamixerrecipes,GregTech,1xgt.blockmachines@1006
+ABS Non-Alloy Recipes,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.category.abs_non_alloy_recipes,GregTech,Unknown
+Flotation Cell,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.flotationcell,GregTech,1xgt.blockmachines@31028
+Eye of Harmony,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.eyeofharmony,TecTech - Tec Technology!,1xgt.blockmachines@15410
+Component Assembly Line,gregtech.nei.GT_NEI_DefaultHandler,gg.recipe.componentassemblyline,Good Generator,1xgt.blockmachines@32026
+Compressor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.compressor,GregTech,1xgt.blockmachines@241
+Zhuhai - Fishing Port,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.fishpond,GregTech,1xgt.blockmachines@829
+Circuit Assembly Line,gregtech.nei.GT_NEI_DefaultHandler,bw.recipe.cal,BartWorks,1xgt.blockmachines@12735
+Autoclave,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.autoclave,GregTech,1xgt.blockmachines@571
+Rocket Engine Fuel,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.rocketenginefuel,GregTech,1xgt.blockmachines@793
+Electromagnetic Separator,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.electromagneticseparator,GregTech,1xgt.blockmachines@561
+Distillery,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.distillery,GregTech,1xgt.blockmachines@531
+Solar Tower,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.solartower,GregTech,1xgt.blockmachines@863
+Printer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.printer,GregTech,1xgt.blockmachines@321
+Matter Amplifier,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.uuamplifier,GregTech,1xgt.blockmachines@471
+Vacuum Furnace,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.vacfurnace,GregTech,1xgt.blockmachines@995
+Fluid Extractor Recycling,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.fluid_extractor_recycling,GregTech,Unknown
+Thermal Centrifuge,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.thermalcentrifuge,GregTech,1xgt.blockmachines@381
+Canner,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.canner,GregTech,1xgt.blockmachines@231
+Chemical Plant,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.fluidchemicaleactor,GregTech,1xgt.blockmachines@998
+Extreme Heat Exchanger,gregtech.nei.GT_NEI_DefaultHandler,gg.recipe.extreme_heat_exchanger,Good Generator,1xgt.blockmachines@32017
+Large Boiler,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.largeboilerfakefuels,GregTech,1xgt.blockmachines@1020
+Brewery,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.brewer,GregTech,1xgt.blockmachines@491
+Magic Energy Absorber Fu...,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.magicfuels,GregTech,1xgt.blockmachines@1123
+Simple Dust Washer,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.simplewasher,GregTech,1xgt.blockmachines@31790
+Nano Forge,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.nanoforge,GregTech,1xgt.blockmachines@357
+Plasma Arc Furnace,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.plasmaarcfurnace,GregTech,1xgt.blockmachines@661
+Forge Hammer Recycling,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.forge_hammer_recycling,GregTech,Unknown
+Digester,gregtech.nei.GT_NEI_DefaultHandler,gtnhlanth.recipe.digester,GTNH: Lanthanides,1xgt.blockmachines@10500
+Plasma Arc Furnace Recy...,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.plasma_arc_furnace_recycling,GregTech,Unknown
+Tree Growth Simulator,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.treefarm,GregTech,1xgt.blockmachines@836
+Cold Trap,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.coldtrap,GregTech,1xgt.blockmachines@31033
+Multiblock Mixer,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.multimixer,GregTech,1xgt.blockmachines@811
+Laser Engraver,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.laserengraver,GregTech,1xgt.blockmachines@591
+DTPF,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.plasmaforge,GregTech,1xgt.blockmachines@1004
+Fusion Reactor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fusionreactor,GregTech,1xgt.blockmachines@1193
+Naquadah Fuel Refine Fact...,gregtech.nei.GT_NEI_DefaultHandler,gg.recipe.naquadah_fuel_refine_factory,Good Generator,1xgt.blockmachines@16999
+Multiblock Electrolyzer,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.multielectro,GregTech,1xgt.blockmachines@796
+Space Mining,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.spaceMining,GT: New Horizons,1xgt.blockmachines@14007
+Ore Washer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.orewasher,GregTech,1xgt.blockmachines@391
+Dehydrator,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.chemicaldehydrator,GregTech,1xgt.blockmachines@911
+Molecular Transformer,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.moleculartransformer,GregTech,1xtile.null@0
+Precise Assembler,gregtech.nei.GT_NEI_DefaultHandler,gg.recipe.precise_assembler,Good Generator,1xgt.blockmachines@32018
+Extreme Diesel Engine Fuel,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.extremedieselgeneratorfuel,GregTech,1xgt.blockmachines@2105
+Macerator,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.macerator,GregTech,1xgt.blockmachines@301
+Naquadah Reactor MkIII,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fluidnaquadahreactor,GregTech,1xgt.blockmachines@1192
+Nuclear Salt Processing P...,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.nuclearsaltprocessingplant,GregTech,1xgt.blockmachines@749
+Liquid Fluoride Thorium Re...,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.lftr,GregTech,1xgt.blockmachines@751
+Lathe,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.lathe,GregTech,1xgt.blockmachines@291
+Nuclear Fission,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.ic2nuke,GregTech,1xic2.blockGenerator@5
+Research Station,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.researchStation,TecTech - Tec Technology!,1xgt.blockmachines@15331
+Circuit Assembler,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.circuitassembler,GregTech,1xgt.blockmachines@1180
+Naquadah Reactor MkI,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.smallnaquadahreactor,GregTech,1xgt.blockmachines@1190
+Multiblock Centrifuge,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.multicentrifuge,GregTech,1xgt.blockmachines@790
+Mass Fabrication,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.massfab,GregTech,1xgt.blockmachines@461
+Wiremill,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.wiremill,GregTech,1xgt.blockmachines@351
+Cutting Machine,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.cuttingsaw,GregTech,1xgt.blockmachines@251
+Thermal Generator Fuel,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.thermalgeneratorfuel,GregTech,1xgt.blockmachines@875
+Primitive Blast Furnace,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.primitiveblastfurnace,GregTech,1xgt.blockmachines@140
+Space Assembler,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.spaceAssembler,GT: New Horizons,1xgt.blockmachines@14004
+Fermenter,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fermenter,GregTech,1xgt.blockmachines@501
+Vacuum Freezer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.vacuumfreezer,GregTech,1xgt.blockmachines@1002
+Unpackager,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.unpackager,GregTech,1xgt.blockmachines@411
+Semifluid Boiler Fuels,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.semifluidboilerfuels,GregTech,Unknown
+Fluid Extractor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fluidextractor,GregTech,1xgt.blockmachines@511
+Oil Cracker,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.craker,GregTech,1xgt.blockmachines@1160
+Fluid Solidifier,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fluidsolidifier,GregTech,1xgt.blockmachines@521
+Quantum Force Transform...,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.quantumforcesmelter,GregTech,1xgt.blockmachines@31151
+Extruder,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.extruder,GregTech,1xgt.blockmachines@281
+Extractor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.extractor,GregTech,1xgt.blockmachines@271
+Centrifuge,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.centrifuge,GregTech,1xgt.blockmachines@361
+Combustion Generator Fue...,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.dieselgeneratorfuel,GregTech,1xgt.blockmachines@1110
+Arc Furnace Recycling,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.category.arc_furnace_recycling,GregTech,Unknown
+COMET - Compact Cyclotron,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.cyclotron,GregTech,1xgt.blockmachines@828
+Semifluid Generator Fuels,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.semifluidgeneratorfuels,GregTech,1xgt.blockmachines@837
+Cryogenic Freezer,gregtech.nei.GT_NEI_DefaultHandler,gtpp.recipe.cryogenicfreezer,GregTech,1xgt.blockmachines@910
+Tool Casting Machine,gregtech.nei.GT_NEI_DefaultHandler,ggfab.recipe.toolcast,GregTech,1xgt.blockmachines@13534
+Packager,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.packager,GregTech,1xgt.blockmachines@401
+Fluid Canner,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fluidcanner,GregTech,1xgt.blockmachines@431
+Fluid Naquadah Reactor,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fluidfuelnaquadahreactor,GregTech,Unknown
+Space Research,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.spaceResearch,GT: New Horizons,1xgt.blockmachines@14013
+Forge Hammer,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.hammer,GregTech,1xgt.blockmachines@611
+Bending Machine,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.metalbender,GregTech,1xgt.blockmachines@221
+Acid Generator,gregtech.nei.GT_NEI_DefaultHandler,bw.fuels.acidgens,BartWorks,1xgt.blockmachines@12726
+Naquadah Reactor MkIV,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.hugenaquadahreactor,GregTech,1xgt.blockmachines@1188
+Assemblyline Process,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.fakeAssemblylineProcess,GregTech,1xgt.blockmachines@1170
+Scanner,gregtech.nei.GT_NEI_DefaultHandler,gt.recipe.scanner,GregTech,1xgt.blockmachines@341
+Shaped Crafting,mrtjp.projectred.core.libmc.recipe.PRShapedRecipeHandler,crafting,ProjectRed,1xitem.projectred.transmission.wire@7
+Shapeless Crafting,mrtjp.projectred.core.libmc.recipe.PRShapelessRecipeHandler,crafting,ProjectRed,1xitem.projectred.transmission.wire@7
+Vein Stats,pers.gwyog.gtneioreplugin.plugin.gregtech5.PluginGT5VeinStat,null,GT NEI Ore Plugin GT:NH Mod,1xgt.blockores@386
+Small Ore Stats,pers.gwyog.gtneioreplugin.plugin.gregtech5.PluginGT5SmallOreStat,null,GT NEI Ore Plugin GT:NH Mod,1xgt.blockores@85
+Underground Fluid Stats,pers.gwyog.gtneioreplugin.plugin.gregtech5.PluginGT5UndergroundFluid,null,GT NEI Ore Plugin GT:NH Mod,1xgt.metaitem.01@32619
+BetterQuesting,bq_standard.integration.nei.QuestRecipeHandler,bq_quest,Standard Expansion,1xitem.ItemQuestBook@0
+Multiblocks Structure,blockrenderer6343.integration.nei.GT_NEI_MultiblocksHandler,gregtech.nei.multiblockhandler,GregTech,1xitem.structurelib.constructableTrigger@0
+LootBag,enhancedlootbags,enhancedlootbags,Enhanced LootBags,1xitem.null@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT1RecipeHandler,null,Galacticraft,1xitem.spaceship@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT2RecipeHandler,null,Galacticraft,1xitem.spaceshipTier2@1
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT3RecipeHandler,null,Galacticraft,1xitem.itemTier3Rocket@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT4RecipeHandler,null,GalaxySpace,1xitem.Tier4Rocket@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT5RecipeHandler,null,GalaxySpace,1xitem.Tier5Rocket@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT6RecipeHandler,null,GalaxySpace,1xitem.Tier6Rocket@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT7RecipeHandler,null,GalaxySpace,1xitem.Tier7Rocket@0
+§9NASA Workbench,galaxyspace.core.nei.rocket.RocketT8RecipeHandler,null,GalaxySpace,1xitem.Tier8Rocket@0
+Assembly Machine,galaxyspace.core.nei.AssemblyMachineRecipeHandler,null,GalaxySpace,1xtile.AssemblyMachine@0
+Space Pumping Module,com.gtnewhorizons.gtnhintergalactic.nei.SpacePumpModuleRecipeHandler,null,GTNH-Intergalactic,1xgt.blockmachines@14010
+Planetary Gas Siphon,com.gtnewhorizons.gtnhintergalactic.nei.GasSiphonRecipeHandler,null,GTNH-Intergalactic,1xgt.blockmachines@14002
+Flower Breeding,net.bdew.neiaddons.botany.flowers.FlowerBreedingHandler,null,Botany,1xbotany.flower@0
+Bee Breeding,net.bdew.neiaddons.forestry.bees.BeeBreedingHandler,null,Forestry for Minecraft,1xitem.for.beeQueenGE@0
+Bee Produce,net.bdew.neiaddons.forestry.bees.BeeProduceHandler,null,Forestry for Minecraft,1xitem.for.beeQueenGE@0
+Tree Breeding,net.bdew.neiaddons.forestry.trees.TreeBreedingHandler,null,Forestry for Minecraft,1xtile.for.saplingGE@0
+Tree Produce,net.bdew.neiaddons.forestry.trees.TreeProduceHandler,null,Forestry for Minecraft,1xtile.for.saplingGE@0
+Butterfly Breeding,net.bdew.neiaddons.forestry.butterflies.ButterflyBreedingHandler,null,Forestry for Minecraft,1xitem.for.butterflyGE@0
+Fluid Registry,tonius.neiintegration.mods.mcforge.RecipeHandlerFluidRegistry,null,Minecraft,1xtile.water@0
+Ore Dictionary,tonius.neiintegration.mods.mcforge.RecipeHandlerOreDictionary,null,Minecraft,1xtile.oreIron@0
+Advanced Coke Oven,tonius.neiintegration.mods.railcraft.RecipeHandlerBlastFurnace,null,Railcraft,1xtile.railcraft.machine.alpha@12
+Coke Oven,tonius.neiintegration.mods.railcraft.RecipeHandlerCokeOven,null,Railcraft,1xtile.railcraft.machine.alpha@7
+Rock Crusher,tonius.neiintegration.mods.railcraft.RecipeHandlerRockCrusher,null,Railcraft,1xtile.railcraft.machine.alpha@15
+Rolling Machine,tonius.neiintegration.mods.railcraft.RecipeHandlerRollingMachineShaped,null,Railcraft,1xtile.railcraft.machine.alpha@8
+Rolling Machine,tonius.neiintegration.mods.railcraft.RecipeHandlerRollingMachineShapeless,null,Railcraft,1xtile.railcraft.machine.alpha@8

@@ -5,23 +5,29 @@
 from collections import OrderedDict
 from pathlib import Path
 import click
+from tools.recipe_filterer import filter_recipes
 
 from tools.recipe_preprocessor import preprocess_recipes
 
-steps_dict = OrderedDict([("preprocess", preprocess_recipes)])
+steps_dict = OrderedDict(
+    [
+        ("preprocess", preprocess_recipes),
+        ("filter", filter_recipes),
+    ]
+)
 
 
 @click.command()
 @click.option("--data_dir", "-d", type=click.Path(exists=True), default="data")
 @click.option("--output_dir", "-o", type=click.Path(), default="output")
 @click.option(
-    "--step",
+    "--steps",
     "-s",
     type=click.Choice(list(steps_dict.keys()) + ["all"], case_sensitive=False),
     multiple=True,
     default=["all"],
 )
-def cli(data_dir: str, output_dir: str, step: list[str]):
+def cli(data_dir: str, output_dir: str, steps: list[str]):
     """Convert recipes to NERD format via a series of steps"""
     print("Welcome to the NERD Converter!")
 
@@ -34,17 +40,17 @@ def cli(data_dir: str, output_dir: str, step: list[str]):
     # We can create output directory if it doesn't exist
     output_path.mkdir(parents=True, exist_ok=True)
 
-    if "all" in step:
-        step = list(steps_dict.keys())
+    if "all" in steps:
+        steps = list(steps_dict.keys())
 
-    for s in step:
+    for i, s in enumerate(steps):
         print()
-        print(f"Running step: {s}")
+        print(f"Running step {i+1}/{len(steps)}: {s}")
         if s not in steps_dict:
-            click.echo(f"Step {s} not found")
+            click.echo(f"Step '{s}' not found")
             return
         if not steps_dict[s](data_path, output_path):
-            click.echo(f"Step {s} failed")
+            click.echo(f"Step '{s}' failed")
             return
     click.echo("All steps completed successfully!")
 
