@@ -6,7 +6,7 @@ from pydantic import BaseModel
 class Stack(BaseModel):
     type: Literal["item", "fluid"]
     slug: str
-    amount: int  # Count (items) or amount (fluids)
+    amount: int | float  # Count (items) or amount (fluids). Can be partial in the case of chances
 
     @property
     def comboslug(self):

@@ -17,7 +17,7 @@ steps_dict = OrderedDict([("preprocess", preprocess_recipes)])
 @click.option(
     "--step",
     "-s",
-    type=click.Choice(list(steps_dict.keys())+["all"], case_sensitive=False),
+    type=click.Choice(list(steps_dict.keys()) + ["all"], case_sensitive=False),
     multiple=True,
     default=["all"],
 )
@@ -33,10 +33,10 @@ def cli(data_dir: str, output_dir: str, step: list[str]):
     output_path = Path(output_dir)
     # We can create output directory if it doesn't exist
     output_path.mkdir(parents=True, exist_ok=True)
-    
+
     if "all" in step:
         step = list(steps_dict.keys())
-    
+
     for s in step:
         print()
         print(f"Running step: {s}")

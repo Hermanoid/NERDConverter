@@ -1,6 +1,6 @@
 from pathlib import Path
 import itertools
-from typing import Sequence, Tuple, List, Optional
+from typing import Sequence, Tuple, Optional
 import hashlib
 import json_stream
 import json_stream.base
@@ -12,18 +12,29 @@ RECIPES_INPUT_FILENAME = "recipes.json"
 RECIPES_PREPROCESSED_FILENAME = "recipes_preprocessed.json"
 
 
-def stackify(itemSlot: ItemSlot) -> Stack:
+def intify(amount: float):
+    if amount.is_integer():
+        return int(amount)
+    return amount
+
+
+def stackify(itemSlot: ItemSlot, chance: float = 10000) -> Stack:
+    mult = chance / 10000
     if isinstance(itemSlot, str):
-        return Stack(type="item", slug=itemSlot, amount=1)
+        return Stack(type="item", slug=itemSlot, amount=intify(1 * mult))
     elif isinstance(itemSlot, MinimalItem):
-        return Stack(type="item", slug=itemSlot.itemSlug, amount=itemSlot.count)
+        return Stack(
+            type="item", slug=itemSlot.itemSlug, amount=intify(itemSlot.count * mult)
+        )
     elif isinstance(itemSlot, MinimalFluid):
-        return Stack(type="fluid", slug=itemSlot.fluidSlug, amount=itemSlot.amount)
+        return Stack(
+            type="fluid", slug=itemSlot.fluidSlug, amount=intify(itemSlot.amount * mult)
+        )
     else:
         raise ValueError(f"Invalid itemSlot: {itemSlot} ({type(itemSlot)})")
 
 
-def groupify(stacks: Sequence[Stack]) -> List[Stack]:
+def groupify(stacks: Sequence[Stack]) -> list[Stack]:
     groups = itertools.groupby(stacks, lambda stack: (stack.type, stack.slug))
     return [
         Stack(type=type, slug=slug, amount=sum(s.amount for s in stack_group))
@@ -38,6 +49,13 @@ def stackngroup(itemSlots: Sequence[Optional[ItemSlot]]):
     in favor of a more compact, Satisfactory Tools-compatible format (e.g. 4 planks -> 1 crafting table)
     """
     stacks = [stackify(i) for i in itemSlots if i]
+    return groupify(stacks)
+
+
+def stackngroup_chances(
+    itemSlots: Sequence[Optional[ItemSlot]], chances: Sequence[float]
+):
+    stacks = [stackify(i, chance) for i, chance in zip(itemSlots, chances) if i]
     return groupify(stacks)
 
 
@@ -112,9 +130,9 @@ def preprocess_recipes(data_dir: Path, output_dir: Path) -> bool:
                         inputs = stackngroup(
                             recipe.greg_data.mInputs + recipe.greg_data.mFluidInputs
                         )
-                        outputs = stackngroup(
-                            recipe.greg_data.mOutputs + recipe.greg_data.mFluidOutputs
-                        )
+                        outputs = stackngroup_chances(
+                            recipe.greg_data.mOutputs, recipe.greg_data.mChances
+                        ) + stackngroup(recipe.greg_data.mFluidOutputs)
                         meta = GregMeta(
                             EUt=recipe.greg_data.mEUt, ticks=recipe.greg_data.mDuration
                         )

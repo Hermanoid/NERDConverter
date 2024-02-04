@@ -71,6 +71,7 @@ class GregtechRecipe(BaseModel):
     mOutputs: List[Optional[ItemSlot]]
     mFluidInputs: List[Optional[FluidSlot]]
     mFluidOutputs: List[Optional[FluidSlot]]
+    mChances: List[int]
     mDuration: int
     mEUt: int
     mSpecialValue: int
